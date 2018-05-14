@@ -1,0 +1,5 @@
+{
+  "foo.bar/page/1":"<img src=\"img.bar/1.jpg\" /><a href=\"foo.bar/page/2\">Next</a>",
+  "foo.bar/page/2":"<img src=\"img.bar/2.jpg\" /><a href=\"foo.bar/page/3\">Next</a>",
+  "foo.bar/page/3":"<img src=\"img.bar/3.jpg\" />"
+}

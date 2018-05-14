@@ -1,0 +1,20 @@
+{
+  "foo.bar/page/1":
+  "<p>Hello World</p><img src=\"img.bar/image.png\" /><a href=\"foo.bar/page/2\">Next Page</a>",
+  "foo.bar/page/2":
+  "<p>Welcome to the Internet</p><img src=\"img.bar/image.gif\" /><a href=\"foo.bar/page/3\">Next Page</a><a href=\"foo.bar/page/gone\">Nowhere</a>",
+  "foo.bar/page/3":
+  "<img src=\"img.bar/hello.png\" /><p>Hello World Again</p><img src=\"img.bar/world.png\" /><a href=\"foo.bar/page/4\">Next Page</a>",
+  "foo.bar/page/4":
+  "<p>Yet another page on the internet</p><img src=\"img.bar/skip.png\" /><a href=\"foo.bar/page/6\">Jump Page</a>",
+  "foo.bar/page/5":
+  "<p>Hidden internet page</p><img src=\"img.bar/nope.jpg\" /><a href=\"foo.bar/page/6\">Next Page</a>",
+  "foo.bar/page/6": 
+  "<p>Wait did we skip 5?</p><img src=\"img.bar/loop.gif\" /><a href=\"foo2.bar/page/7\">Next Page</a><a href=\"foo.bar/page/6\">loop</a>",
+  "foo2.bar/page/7": 
+  "<p>Yeah I think 5 is gone</p><img class=\"what\" src=\"img.bar/7.png\" /><a href=\"foo.bar/page/9\">Two Page</a>",
+  "foo.bar/page/8": 
+  "<p src=\"this is weird\">What type of P tag is that?</p>",
+  "foo.bar/page/9": 
+  "<p>... a bad one</p><img src=\"img.bar/image.png\" /><a href=\"foo.bar/page/8\">Back Page</a>"
+}

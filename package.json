@@ -1,0 +1,17 @@
+{
+  "name": "tarmolehtonenchallenge",
+  "version": "1.0.0",
+  "description": "hartford code challenge",
+  "main": "crawler.js",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.2"
+  },
+  "devDependencies": {
+    "mocha": "^5.1.1"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "",
+  "license": "ISC"
+}
